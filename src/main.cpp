@@ -2,6 +2,6 @@
 
 int main(int argc, char** argv)
 {
-  YAML::Node file = YAML::LoadFile("config.yaml");
+  YAML::Node file = YAML::LoadFile("../test.yaml");
   return 0;
 }
